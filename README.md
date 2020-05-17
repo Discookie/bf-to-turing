@@ -5,7 +5,7 @@ This little program compiles Brainfuck IR outputted by [bfc](https://github.com/
 
 The compiled code is not that quick, it contains a lot of repeat instructions. This is more of a proof-of-concept that it can be done.
 
-It currently requires JSON-formatted BFIR, but 'raw' BFIR parsing is on the way. A bfc variant which supports this can be obtained via [here](https://github.com/discookie/bfc).
+It currently requires JSON-formatted BFIR, but 'raw' BFIR parsing is on the way. A bfc variant which supports this can be obtained via [here](https://github.com/Discookie/bfc/tree/bfir-json).
 
 Instructions
 ------------
