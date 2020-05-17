@@ -1,0 +1,19 @@
+[package]
+name = "bf-to-turing"
+version = "0.1.0"
+authors = ["Discookie <matekos17@fazekas.hu>"]
+edition = "2018"
+readme = "README.md"
+license = "GPL-3.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+getopts = "0.2"
+nanoid = "0.3"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[dev-dependencies]
+quickcheck = "0.3"
+pretty_assertions = "0.6.1"
